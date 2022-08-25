@@ -1,0 +1,313 @@
+
+body {
+
+
+  
+    background-size: auto ;
+    background-color: 252422;
+    height: 970px;
+    width:100%;
+    
+    
+    
+    }
+
+
+
+         .about-us {
+
+
+            
+            background: cover;
+display: flexbox;
+flex-direction: row;
+justify-content: center;
+
+
+         }
+
+         .h1-about {
+            text-align: center;
+            margin-top: 25%;
+            margin-bottom: 4%;
+            font-size: 50px;
+
+            background-image: url(./D-SHOP-CUT.jpg);
+    background: cover;
+           
+
+
+         }
+
+
+         .p-about {
+
+width:70%;
+text-align: left;
+font-size: 24px;
+font-weight: 600;
+
+
+         }
+
+         .img-about {
+
+            width: 470px;
+            height: 300px;
+             margin-left: 73%;
+             margin-top: -7%;
+
+
+
+
+         }
+
+
+
+
+         
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    
+    
+    
+    .container {
+    
+        max-width: 100%;
+        margin: 0 auto;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+    
+    nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: #eed2cc;
+    padding: 16px 32px;
+    
+    
+    padding: 20px;
+    
+    font-family: 'BenchNine', sans-serif;
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+     .menu {
+    
+      flex: 1;
+    text-align: right;
+    
+    
+    
+    
+        }
+    
+     .menu a {
+    
+    
+    
+        display: inline-block;
+    
+        list-style: none;
+       
+       margin: 0 20px;
+    
+       position: relative;
+      
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+        nav ul li::after {
+    
+    content: "";
+    height: 2px;
+    width: 0;
+    
+    position: absolute;
+    left:0;
+    bottom:-10px ;
+    transition: 0.5s;
+    
+        }
+    
+        nav ul li:hover:after {
+    
+    
+         width: 100%;
+    
+    
+    
+    
+        }
+    
+        nav ul li a {
+    
+    text-decoration: none;
+    
+    
+    
+    font-size: 26px;
+    
+    
+        }
+    
+    
+    .menu{
+    display: none;
+    flex: 1 1 0%;
+    justify-content: flex-end;
+    margin: 0 1px;
+    }
+    
+    .menu a {
+    
+      color: #818181;
+    margin: 0 16px;
+    font-weight: 599;
+    text-decoration: none;
+    transition:  0.4s;
+    padding: 4px 16px;
+    border-radius: 10px;
+    font-size: 23px
+    ;
+    
+    }
+    .menu a.is-active:hover,  .menu a:hover {
+        
+     
+        background-color:#818181;
+        color: #eed2cc;
+      
+    
+    }
+    
+    
+    
+    
+    @media (min-width: 768px){
+    
+        .three-slash {
+            display: none;
+        }
+    .menu {
+    
+        display: flex;
+    }
+    
+    }
+    
+    .conatin {
+        max-width: 100%;
+        
+        
+        
+        }
+        .footer {
+        background-color: #eed2cc;
+        padding: 1px ;
+        width: 100%;
+        margin-top: 1110px;
+        
+        
+        }
+        
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+
+
+        
+  .contact{
+    padding:39px 0;
+
+   
+  }
+  
+  .contact .content{
+    -webkit-display: flex;
+    display: flex;
+  }
+  
+  .contact .content .box{
+    flex:0 0 50%;
+    max-width: 50%;
+    padding: 15px;
+  }
+  
+  .contact .content .form input,
+  .contact .content .form textarea{
+   height: 45px;
+   width: 100%;
+   padding:20px 60px;
+   margin-bottom: 25px;
+   background-color: transparent;
+   border:1px solid #818181;
+   border-radius: 7x;
+   font-family: 'Enpcode Sans Condensed', sans-serif;
+   color:#818181;
+  }
+  .contact .content .form input:focus,
+  .contact .content .form textarea:focus{
+   outline: none;
+  }
+  .contact .content .form input::placeholder,
+  .contact .content .form textarea::placeholder{
+    color:#ffffff;
+  }
+  .contact .content .form textarea{
+    height: 100px;
+  }
+  
+  .contact .content .form button{
+    border:none;
+    outline: none;
+    box-shadow: none;
+    height: 45px;
+    padding:0px 50px;
+    border:1px solid transparent;
+    background-color: #818181;
+    color:#818181;
+    font-size: 15px;
+    transition: all .5s ease;
+    cursor: pointer;
+  }
+  .contact .content .form button:hover{
+    background-color:transparent;
+    color:#ffffff; 
+    border-color:#818181;
+  }
+
+  a {
+
+color:#ffffff; 
+    text-decoration: none;
+
+  }
